@@ -2,12 +2,14 @@ def show_magicians(lists):
     for list in lists:
         print(list)
 
-magicians = ['a','b','c','d']
+
+magicians = ['a', 'b', 'c', 'd']
 
 show_magicians(magicians)
 
+
 def make_magicians(lists):
-    a=len(lists)
+    a = len(lists)
     b = 0
     c = []
     while b < a:
@@ -16,4 +18,5 @@ def make_magicians(lists):
             b = b + 1
     return c
 
-print(make_magicians(magicians),magicians)
+
+print(make_magicians(magicians), magicians)

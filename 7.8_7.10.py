@@ -1,4 +1,4 @@
-sandwich_orders = ['a','b','c']
+sandwich_orders = ['a', 'b', 'c']
 finished_sandwiches = []
 for sandwich in sandwich_orders:
     finished_sandwiches.append(sandwich)
@@ -22,7 +22,7 @@ lists = []
 ded = True
 while ded == True:
     place = input("if you could visit one place, "
-        "where would you go?")
+                  "where would you go?")
     lists.append(place)
     message = input("any one more place?").lower()
     if message == 'no':
