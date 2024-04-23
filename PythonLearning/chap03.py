@@ -1,0 +1,38 @@
+#3.2常见的Python函数
+x=2
+print(abs(x))
+x1=4
+x2=2
+print(max(x1,x2))
+print(min(x1,x2))
+print(pow(x1,x2))
+print(round(3.5))
+print(round(3.312,2))
+import math
+x=3.234
+print(math.fabs(x))
+print(math.ceil(x))#向上取整，不改变值
+print(math.floor(x))#向下取整
+print(math.exp(x))#e^x
+print(math.log(x))#log_e x
+print(math.sqrt(x))#x^(1/2)
+print(math.sin(x))
+print(math.asin(x))#arcsin(x)
+print(math.cos(x))
+print(math.acos(x))#arccos(x)
+print(math.tan(x))
+print(math.degrees(x))#弧度转角度
+print(math.radians(x))#角度转弧度
+#3.3字符串和字符
+ch='A'
+code=ord(ch)#ASCII码
+ch=chr(code)#对应字符
+print("Hello World",end='')#不换行打印
+string=str(12342)#数字转字符串
+#3.4对象和方法
+#python中所有的数据都是对象
+n=3
+id(n)
+type(n)
+string.lower()#转小写
+string.upper()#转大写
