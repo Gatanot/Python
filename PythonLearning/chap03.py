@@ -9,7 +9,7 @@ print(pow(x1,x2))
 print(round(3.5))
 print(round(3.312,2))
 import math
-x=3.234
+x=1.0
 print(math.fabs(x))
 print(math.ceil(x))#向上取整，不改变值
 print(math.floor(x))#向下取整
@@ -29,10 +29,20 @@ code=ord(ch)#ASCII码
 ch=chr(code)#对应字符
 print("Hello World",end='')#不换行打印
 string=str(12342)#数字转字符串
-#3.4对象和方法
+#3.5对象和方法
 #python中所有的数据都是对象
 n=3
 id(n)
 type(n)
 string.lower()#转小写
 string.upper()#转大写
+#3.6格式化数字和字符串
+interest=123.4342
+print("the number is",format(interest,"10.2f"))#宽度为10，小数点后为2为的小鼠
+print("the number is",format(interest,"10.2e"))#科学计数法
+print("the number is",format(interest,"10.2%"))#百分数输出
+print("the number is",format(interest,"<10.2f"))#默认为右对齐，加<改为左对齐
+#d,x,o,b格式化十进制，十六进制，八进制，二进制整数
+print(format("dfafiufhsiufhisufui","10s"))#格式化宽度为20的字符串
+#3.7绘制图形
+#3.8绘制带颜色和字体的图形
