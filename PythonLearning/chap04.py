@@ -19,3 +19,9 @@ else:
     print((a+b)/2)
 #4.7 嵌套if与多重if-else语句
 #4.11 逻辑运算符
+print(not (True and False or True))
+#4.14 条件表达式
+print(x if x<5 else 5)
+#expression1 if expression2 else expression3
+#expression2为真则值为expression1，否则为expression3
+#4.15 运算符的优先级与结合方向
